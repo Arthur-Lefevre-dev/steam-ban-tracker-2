@@ -1,0 +1,26 @@
+# Database configuration
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_password
+DB_NAME=steam_scraper
+DB_PORT=3306
+
+# Steam configuration
+STEAM_API_KEY=your_steam_api_key_here
+SEED_PROFILE=76561198148292752
+
+# Bot configuration (optional)
+BOT_DELAY_MIN=2
+BOT_DELAY_MAX=5
+MAX_CONCURRENT_BOTS=5
+MAX_FRIENDS_PER_PROFILE=100
+
+# Oracle configuration (optional)
+ORACLE_CHECK_INTERVAL=10
+ORACLE_TIMEOUT=30
+
+# Logging configuration (optional)
+LOG_LEVEL=INFO
+
+# Rate limiting (optional)
+REQUESTS_PER_MINUTE=60 
